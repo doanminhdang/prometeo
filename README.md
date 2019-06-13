@@ -302,5 +302,10 @@ clean:
 ```
 and run in order to carry out the same operations.
 
+Note: to run the compiled program, we may need to add blasfeo and libcprmt to the LD_LIBRARY_PATH:
+
+```bash
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/blasfeo/lib/:/opt/prometeo/lib/
+```
 __Disclaimer: prometeo is still at a very preliminary stage and only very few linear algebra operations and Python constructs are supported for the time being.__
 
